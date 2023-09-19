@@ -101,9 +101,79 @@ All participants will be expected to follow the (<a href="http://mc-stan.org/eve
 
 <div>
 
+    <h3>Keynote speakers</h3>
+
+<ol>
+    <li>Julia Haaf</li>
+    <li>Henrik Singmann</li>
+</ol>
+
      <h3>Courses</h3>
 
-Coming soon.
+     <ul>
+
+     <li><strong>Introduction to Bayesian data analysis</strong> (maximum 30 participants). Taught by Shravan Vasishth,  and <a href="https://annlaurin.github.io/">Anna Laurinavichyute</a>.</li>
+
+     <strong>You can decide whether this course is appropriate for you by looking at the online version
+     of this course (videos are available): <a href="https://open.hpi.de/courses/bayesian-statistics2023">see here</a></strong>.
+     <br><br>
+     This course is an introduction to Bayesian modeling, oriented towards linguists and
+     psychologists.  Topics to be covered: Introduction to Bayesian data analysis,
+     Linear Modeling, Hierarchical Models. We will cover these topics within
+     the context of an applied Bayesian workflow that includes exploratory data
+     analysis, model fitting, and model checking using simulation.<br>
+
+     <strong>Prerequisites</strong>: Participants
+     are expected to be familiar with frequentist methodology (what is taught in
+     the foundations course, see below, as well as this online textbook:
+     <a href="https://vasishth.github.io/Freq_CogSci/">here</a>), be relatively fluent in R usage, and <strong>must</strong>
+     have some experience in data analysis, particularly with the R library lme4.
+     Basic high school (pre-calculus) arithmetic and mathematical fluency is
+     assumed; for example, you should know what a log is, what an exponent is,
+     and be able to solve for y in x=log(y/(1-y)). If you are unfamiliar with frequentist
+     methods, we suggest taking the introductory frequentist course listed below.
+     <br>
+
+
+     <strong>Course Materials</strong>
+
+     Textbook: <a href="https://vasishth.github.io/bayescogsci/">here</a>. We will work through the first six chapters, plus the chapter
+     on Bayes factors.<br>
+
+     <br><br>
+     <li><strong>Advanced Bayesian data analysis</strong> (maximum 30 participants). Taught by <a href="https://bnicenboim.github.io/">Bruno Nicenboim</a> and <a href="https://sites.google.com/site/himanshuyadavjnu/">Himanshu Yadav</a></li>
+
+     This course assumes that participants have some experience in Bayesian modeling already using brms and want to transition to Stan to learn more advanced methods and start building simple computational cognitive models. Participants should have worked through or be familiar with the material in the first five chapters of our book draft: <a href="https://vasishth.github.io/Bayes_CogSci/">Introduction to Bayesian Data Analysis for Cognitive Science</a>. In this course, we will cover Parts III to V of our book draft: model comparison using Bayes factors and k-fold cross validation, introduction and relatively advanced models with Stan, and simple computational cognitive models.
+     <br>
+
+     <strong>Course Materials</strong>
+
+     Textbook <a href="https://vasishth.github.io/bayescogsci/">here</a>. We will start from Part III of the book (Advanced models with Stan). Participants are expected to be familiar with the first five chapters.<br><br>
+
+     <li><strong>Foundational methods in frequentist statistics</strong> (maximum 30 participants). Taught by <a href="https://www.uni-potsdam.de/en/ling/staff-list/audreybuerki">Audrey Buerki</a>,  <a href="https://www.health-and-medical-university.de/universitaet/unser-team/team-fakultaet-gesundheit/professoren/prof-dr-daniel-schad-hmu-potsdam/">Daniel Schad</a>, and <a href="https://www.jverissimo.net/">João Veríssimo</a>.</li>
+
+     Participants will be expected to have used linear mixed models before, to the level of the textbook by <a href="http://www.bodowinter.com/blog/book-release-statistics-for-linguists">Winter (2019, Statistics for Linguists)</a>, and want to acquire a deeper knowledge of frequentist foundations, and understand the linear mixed modeling framework more deeply. Participants are also expected to have fit multiple regressions. We will cover model selection, contrast coding, with a heavy emphasis on simulations to compute power and to understand what the model implies. We will work on (at least some of) the participants' own datasets. <i>This course is not appropriate for researchers new to R or to frequentist statistics</i>.<br>
+
+     <strong>Course Materials</strong>
+
+     Textbook draft <a href="https://vasishth.github.io/Freq_CogSci/">here</a>.
+     <br><br>
+
+     <li><strong>Advanced methods in frequentist statistics with Julia</strong> (maximum 30 participants). Taught by  <a href="https://www.uni-potsdam.de/en/trainingswissenschaft/staff/rkliegl.html">Reinhold Kliegl</a>, <a href="https://phillipalday.com/">Phillip Alday</a>, and <a href="https://stat.wisc.edu/staff/bates-douglas/">Doug Bates</a>. </li>
+
+     </ul>
+
+     Applicants must have experience with linear mixed models and be interested in learning how to carry out such analyses with the <a href="https://github.com/JuliaStats/MixedModels.jl">Julia-based MixedModels.jl package</a>) (i.e., the analogue of the R-based lme4 package). MixedModels.jl has some significant advantages. Some of them are: (a) new and more efficient computational implementation, (b) speed — needed for, e.g.,  complex designs and power simulations,
+     (c) more flexibility for selection of parsimonious mixed models, and
+     (d) more flexibility in taking into account autocorrelations or other dependencies — typical  EEG-, fMRI-based time series (under development).
+
+     We <strong>do not expect</strong> profound knowledge of Julia from participants; the necessary subset of knowledge will be taught on the first day of the course. We do expect a readiness to <a href="https://julialang.org/downloads/">install Julia</a> and the confidence that with some basic instruction participants will be able to adapt prepared Julia scripts for their own data or to adapt some of their own lme4-commands to the equivalent MixedModels.jl-commands. The course will be taught in a hybrid IDE. There is already the option to execute R chunks from within Julia, meaning one needs Julia primarily for execution of MixedModels.jl commands as replacement of lme4. There is also an option to call MixedModels.jl from within R and process the resulting object like an lme4-object. Thus, much of pre- and postprocessing (e.g., data simulation for complex experimental designs; visualization of partial-effect interactions or shrinkage effects) can be carried out in R.
+     <br>
+
+     <strong>Course Materials</strong>
+
+     Github repo from 2022: <a href="https://github.com/RePsychLing/SMLP2022">here</a>.<br><br>
+
 
 </div>
 
