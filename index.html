@@ -171,33 +171,23 @@ All participants will be expected to follow the (<a href="http://mc-stan.org/eve
      <br><br>
 
      <li><strong>Advanced methods in frequentist statistics with Julia</strong> (maximum 30 participants). Taught by  <a href="https://www.uni-potsdam.de/en/trainingswissenschaft/staff/rkliegl.html">Reinhold Kliegl</a>, <a href="https://phillipalday.com/">Phillip Alday</a>, and <a href="https://stat.wisc.edu/staff/bates-douglas/">Doug Bates</a>. </li>
+     <br>
+     Applicants must have experience with linear mixed models and be interested in learning how to carry out such analyses with the <a href="https://github.com/JuliaStats/MixedModels.jl">Julia-based MixedModels.jl package</a>) (i.e., the analogue of the R-based lme4 package). MixedModels.jl has some significant advantages stemming from a faster implementation incorporating several algorithmic advances. The speed improvements make it easier to fit larger and more complex models as well as perform the repetitive model fitting necessary for power simulation and bootstrapping.</br>
 
-     </ul>
-
-
-<br>
-     Applicants must have experience with linear mixed models and be interested in learning how to carry out such analyses with the <a href="https://github.com/JuliaStats/MixedModels.jl">Julia-based MixedModels.jl package</a>) (i.e., the analogue of the R-based lme4 package). MixedModels.jl has some significant advantages. Some of them are: (a) new and more efficient computational implementation, (b) speed — needed for, e.g.,  complex designs and power simulations,
-     (c) more flexibility for selection of parsimonious mixed models, and
-     (d) more flexibility in taking into account autocorrelations or other dependencies — typical  EEG-, fMRI-based time series (under development).
-
-     We <strong>do not expect</strong> profound knowledge of Julia from participants; the necessary subset of knowledge will be taught on the first day of the course. We do expect a readiness to <a href="https://julialang.org/downloads/">install Julia</a> and the confidence that with some basic instruction participants will be able to adapt prepared Julia scripts for their own data or to adapt some of their own lme4-commands to the equivalent MixedModels.jl-commands. The course will be taught in a hybrid IDE. There is already the option to execute R chunks from within Julia, meaning one needs Julia primarily for execution of MixedModels.jl commands as replacement of lme4. There is also an option to call MixedModels.jl from within R and process the resulting object like an lme4-object. Thus, much of pre- and postprocessing (e.g., data simulation for complex experimental designs; visualization of partial-effect interactions or shrinkage effects) can be carried out in R.
+     <br>We <strong>do not expect</strong> profound knowledge of Julia from participants; the necessary subset of knowledge will be taught on the first day of the course. We do expect a readiness to <a href="https://julialang.org/downloads/">install Julia</a> and the confidence that with some basic instruction participants will be able to adapt prepared Julia scripts for their own data or to adapt some of their own lme4-commands to the equivalent MixedModels.jl-commands. 
+     There is good interoperability between R and Julia (with <a href="https://juliainterop.github.io/RCall.jl/stable/">RCall</a> on the Julia side and <a href="https://non-contradiction.github.io/JuliaCall/index.html">JuliaCall</a> on the R side) so that users can continue using R as necessary for e.g. data wrangling and plotting.  
      <br><br>
 
      <strong>Course Materials</strong>
 
-     <ol>
-         <li><a href="https://www.embraceuncertaintybook.com/">Embrace uncertainty</a></li>
-         <li><a href="https://repsychling.github.io/SMLP2024/">Course materials</a></li>
-         <li><a href="https://repsychling.github.io/SMLP2023/">Github repo from 2023</a></li>
-         <li><a href="https://repsychling.github.io/SMLP2022/">Github repo from 2022</a></li>
-         <li><a href="https://repsychling.github.io/SMLP2021/">Github repo from 2021</a></li>
-         <li><a href=" https://github.com/smlp2020-stream4/SMLP2020">Github repo from 2020</a></li>
-         <li><a href="https://www.researchgate.net/lab/German-Kids-Fitness-Lab-Reinhold-Kliegl">Publications using MixedModel.jl</a></li>
-     </ol>
+     <ul>
+         <li><a href="https://repsychling.github.io/SMLP2024/">Course materials</a>, including lecture notes and worked examples. Please also see this course website for instructions for installing necessary software. </li>
+         <li><a href="https://www.embraceuncertaintybook.com/"><em>Embrace Uncertainty</em></a> in progress book on mixed effects models using Julia. Several chapters started off as lectures at past SMLPs! </li>
+     </ul>
 
      <br><br>
 
-
+</ul>
 </div>
 
 
